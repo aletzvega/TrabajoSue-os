@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F9FAFB;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    font-size: 50px;
+    color: #1D4ED8
+}
+
+h3{
+    font-size: 20px;
+    color: #1D4ED8
+}
+
+ol {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: auto;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 3px;
+    background-color: #DBEAF9;
+}
+
+
+img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+}
+
+#Titulo {
+    color: #1D4ED8;
+    font-size: 32px;
+}
