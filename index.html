@@ -3,43 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de la Persona</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <h1>Calculadora Básica</h1>
 
-    <div>
-        <h1>Registro de la Persona Usuaria</h1>
-        <label for="nombre">Nombre:</label>
-        <input type="text">
-        <label for="apellido">Apellido:</label>
-        <input type="text">
-        <label for="email">Correo-Electronico</label>
-        <input type="text">
-        <label for="contraseña">Contraseña:</label>
-        <input type="text">
-
-        <h1>En esta sección describete</h1>
-        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
-
-        
-        <h1>Selecciona tus intereses</h1>
-            <div class="intereses">
-                <input type="checkbox" id="interes" name="Tecnologia" value="Tecnologia">
-                <label for="interes">Tecnología</label>
-                <input type="checkbox" id="interes" name="Deportes" value="Deportes">
-                <label for="interes">Deportes</label>
-                <input type="checkbox" id="interes" name="Musica" value="Musica">
-                <label for="interes">Música</label>
-                <input type="checkbox" id="interes" name="Ciencia" value="Ciencia">
-                <label for="interes">Ciencia</label>
-                <input type="checkbox" id="interes" name="Arte" value="Arte">
-                <label for="interes">Arte</label>
-            </div>
-
-        <button type="button" submit>Registrarse</button>
-
+    <div class="botones">
+        <input type="text" id="pantalla" readonly>
+        <button id = "uno">1</button>
+        <button id = "dos">2</button>
+        <button id = "tres">3</button>
+        <button id = "borrar">C</button>
+        <button id = "cuatro">4</button>
+        <button id = "cinco">5</button>
+        <button id = "seis">6</button>
+        <button id = "dividir">÷</button>
+        <button id = "siete">7</button>
+        <button id = "ocho">8</button>
+        <button id="nueve">9</button>
+        <button id="restar">-</button>
+        <button id="igual">=</button>
+        <button id="cero">0</button>
+        <button id="multplicar">x</button>
+        <button id="sumar">+</button>
     </div>
-    
+
 </body>
 </html>

@@ -1,91 +1,67 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #333333;
-    margin: 0px;
-    padding: 50px 20px;
-}
-
-form { 
-    background-color: #ffffff;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
 
 h1 {
+    color: #30335e;
     font-size: 28px;
-    color: #1e3a8a;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-label {
-    font-size: 16px;
-    color: #4b5563;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-
-input[type="text"] {
-    width: 100%;
-    padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #d1d5db;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
 }
 
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #d1d5db;
-    border-radius: 5px;
-    font-size: 16px;
-    resize: vertical;
-    box-sizing: border-box;
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #374151;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#pantalla {
+    grid-column: span 4;
+    height: 50px;
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    text-align: right;
+    background-color: #d1d5db;
+    color: #000000;
+    border: 3px inset #9ca3af;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+    
 }
 
 button {
-    background-color: #1e3a8a;
-    color: #ffffff;
-    padding: 12px 25px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
     font-weight: bold;
+    color: #ffffff;
+    background-color: #4b5563;
+    border: 2px solid #1f2937;
+    border-radius: 10px;
+    padding: 20px;
     cursor: pointer;
-    display: block;
-    margin-top: 50px;
-    transition: background-color 0.2s;
+    transition: background-color 0.3s;
 }
 
-.intereses {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+button:hover {
+    background-color: #6b7280;
 }
 
-.intereses input[type="checkbox"] {
-    width: auto;
-    margin-right: 8px;
-    margin-bottom: 0;
-    cursor: pointer;
+#igual {
+    background-color: #10b981;
+    border-color: #047857;
 }
 
-.intereses label {
-    display: inline-flex;
-    align-items: center;
-    font-size: 14px;
-    font-weight: normal;
-    color: #4b5563;
-    cursor: pointer;
+#borrar {
+    background-color: #ef4444;
+    border-color: #b91c1c;
 }
